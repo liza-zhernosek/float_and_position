@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, arial;
+}
+
+p {
+  color:  #333333;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.container {
+  width: 523px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.list-1 {
+  position: absolute;
+  border: 2px solid #000000;
+  background: #acacac;
+  width: 521px;
+  height: 746px;
+  top: 40px;
+  left: 40px;
+}
+
+.tab-1,
+.tab-2,
+.tab-3 {
+  position: absolute;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 2px solid #000000;
+  width: 95px;
+  height: 31px;
+}
+
+.tab-1 {
+  background: #00aeef;
+  right: -17px;
+  top: 49px;
+}
+
+.list-2 {
+  position: absolute;
+  border: 2px solid #000000;
+  background: #cccccc;
+  width: 521px;
+  height: 746px;
+  top: 20px;
+  left: 20px;
+}
+
+.tab-2 {
+  background: #39b54a;
+  right: -50px;
+  top: 45px;
+}
+
+.list-3 {
+  border: 2px solid #000000;
+  background:  #ebebeb;
+  padding: 30px;
+  position: absolute;
+}
+
+.tab-3 {
+  background: #f68e56;
+  width: 107px;
+  height: 31px;
+  right: -85px;
+  top: 39px;
+}
+
+.main-title {
+  margin-top: 3px;
+}
+
+.cup {
+  margin-top: 10px;
+}
+
+.cup-img {
+  float: left;
+  margin: 5px 20px 5px 0;
+}
+
+.note {
+  margin-top: 15px;
+}
+
+.note-img {
+  float: right;
+  margin: 5px 0 20px 5px;
+}
+
+.jokes {
+  margin-top: 45px;
+}
+
+.jokes h5 {
+  margin-bottom: 20px;
+}
+
+.joke-2,
+.joke-4 { 
+  float: right;
+}
+
+.joke-1,
+.joke-2 {
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 9px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.sticker {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border: 1px solid #362f2d;
+  background: #fbaf5d;
+  width: 87px;
+  height: 69px;
+  color:  #333333;
+  text-align: center;
+}
+
+.sticker-title {
+  color:  #333333;
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.sprite-fb,
+.sprite-tw,
+.sprite-inst {
+  background: url(img/sprite.png);
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.sprite-fb {
+  background-position: 0 0;
+}
+
+.sprite-tw {
+  background-position: 50px 0;
+}
+
+.sprite-inst {
+  background-position: 22px 0;
+}
